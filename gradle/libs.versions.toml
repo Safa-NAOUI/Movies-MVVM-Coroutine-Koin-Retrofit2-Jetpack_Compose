@@ -1,0 +1,55 @@
+[versions]
+
+
+compileSdk = "34"
+minSdk = "24"
+targetSdk = "34"
+versionCode = "1"
+versionName = "1.0"
+
+application = "8.2.2"
+kotlin = "1.9.0"
+koin_version = "3.4.0"
+retrofit2_version = "2.9.0"
+coroutine_version = "1.6.0"
+compose_version = "1.6.6"
+compose_lifecyle = "2.7.0"
+compose_ui_version = "1.6.6"
+compose_paging_version = "3.2.1"
+glide_version = "1.0.0-beta01"
+
+
+[libraries]
+
+
+# Koin for dependency injection
+koin = { module = "io.insert-koin:koin-android", version.ref = "koin_version" }
+#
+# Retrofit for network requests
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2_version" }
+retrofit_gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit2_version" }
+
+# Coroutines for asynchronous programming
+coroutine = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutine_version" }
+coroutine_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine_version" }
+
+# Jetpack Compose for UI
+compose_activity = { module = "androidx.activity:activity-compose", version.ref = "compose_version" }
+compose_lifecyle = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "compose_lifecyle" }
+compose_ui = { module = "androidx.compose.ui:ui", version.ref = "compose_ui_version" }
+compose_ui_tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose_ui_version" }
+material = { module = "androidx.compose.material:material", version.ref = "compose_ui_version" }
+material_icons = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose_ui_version" }
+
+# pagination
+paging_compose = { module = "androidx.paging:paging-compose", version.ref = "compose_paging_version" }
+
+# Glide *
+glide = { module = "com.github.bumptech.glide:compose", version.ref = "glide_version" }
+
+
+[plugins]
+
+application_plugin = { id = "com.android.application", version.ref = "application" }
+kotlin_plugin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
