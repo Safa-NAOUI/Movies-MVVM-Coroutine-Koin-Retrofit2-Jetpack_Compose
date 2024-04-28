@@ -38,6 +38,7 @@ compose_activity = { module = "androidx.activity:activity-compose", version.ref 
 compose_lifecyle = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "compose_lifecyle" }
 compose_ui = { module = "androidx.compose.ui:ui", version.ref = "compose_ui_version" }
 compose_ui_tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose_ui_version" }
+compose_ui_text = { module = "androidx.compose.ui:ui-text", version.ref = "compose_ui_version" }
 material = { module = "androidx.compose.material:material", version.ref = "compose_ui_version" }
 material_icons = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose_ui_version" }
 

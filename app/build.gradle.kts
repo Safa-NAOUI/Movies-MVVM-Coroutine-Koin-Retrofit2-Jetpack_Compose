@@ -78,6 +78,7 @@ dependencies {
     implementation(libs.compose.lifecyle)
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling)
+    implementation(libs.compose.ui.text)
     implementation(libs.material)
     implementation(libs.material.icons)
     implementation(libs.paging.compose)
