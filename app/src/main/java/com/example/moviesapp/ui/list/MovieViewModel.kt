@@ -13,12 +13,12 @@ class MovieViewModel(private val repository: IMovieRepository) : ViewModel() {
     val movies: StateFlow<List<MovieModel>> = _movies
 
     init {
-        fetchPopularMovies(page = 1, genreId = null)
+        fetchMovies(page = 1, genreId = null)
     }
 
-    private fun fetchPopularMovies(page: Int, genreId: String?) {
+    private fun fetchMovies(page: Int, genreId: String?) {
         viewModelScope.launch {
-            _movies.value = repository.getPopularMovies(page, genreId)
+            _movies.value = repository.getMovies(page, genreId)
         }
     }
 }
