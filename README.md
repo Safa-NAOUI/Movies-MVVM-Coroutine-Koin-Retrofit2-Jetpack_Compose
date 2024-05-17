@@ -26,3 +26,4 @@ Tech Stack
 
 ## Screenshots
 
+![App Screenshot](app/Screenshot/Screenshot_List_of_movies.jpg)
