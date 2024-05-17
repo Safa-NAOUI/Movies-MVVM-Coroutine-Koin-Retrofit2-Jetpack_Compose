@@ -17,6 +17,7 @@ compose_lifecyle = "2.7.0"
 compose_ui_version = "1.6.6"
 compose_paging_version = "3.2.1"
 glide_version = "1.0.0-beta01"
+mockitoCore = "5.11.0"
 
 
 [libraries]
@@ -47,6 +48,9 @@ paging_compose = { module = "androidx.paging:paging-compose", version.ref = "com
 
 # Glide *
 glide = { module = "com.github.bumptech.glide:compose", version.ref = "glide_version" }
+
+#Mockito
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
 
 
 [plugins]

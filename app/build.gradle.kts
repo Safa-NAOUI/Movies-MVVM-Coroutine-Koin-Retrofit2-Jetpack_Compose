@@ -84,5 +84,7 @@ dependencies {
     implementation(libs.paging.compose)
     implementation(libs.glide)
 
+    testImplementation (libs.mockito.core)
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")  // Update version as needed
 
 }
