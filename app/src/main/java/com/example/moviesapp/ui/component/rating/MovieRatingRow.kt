@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.example.moviesapp.ui.theme.DeepViolet
 
 /**
  * Created by Safa NAOUI on 28,April,2024
@@ -44,7 +45,7 @@ fun MovieRatingRow(title: String, rating: String,heightValue: Dp) {
         Spacer(modifier = Modifier.weight(0.1f))
         StarRatingIndicator(
             rating,
-            backgroundColor = Color.Gray,
+            backgroundColor = DeepViolet,
             textColor = Color.White)
     }
 }

@@ -17,7 +17,7 @@ import com.example.moviesapp.ui.component.rating.MovieRatingRow
 @Composable
 fun MovieItem(movieItem: MovieModel) {
     val text = "${movieItem.voteAverage.roundTo(1)}"
-    val cornerRadius = 8.dp
+    val cornerRadius = 4.dp
     val imageUrl = Constants.IMAGE_URL.plus(movieItem.posterPath)
 
     Column(
@@ -30,6 +30,6 @@ fun MovieItem(movieItem: MovieModel) {
             contentDescription = null
         )
 
-        MovieRatingRow(title = movieItem.title, rating = text,70.dp)
+        MovieRatingRow(title = movieItem.title, rating = text, 70.dp)
     }
 }
