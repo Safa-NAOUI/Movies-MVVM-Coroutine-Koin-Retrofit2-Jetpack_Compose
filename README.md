@@ -26,4 +26,5 @@ Tech Stack
 
 ## Screenshots
 
-![App Screenshot](app/Screenshot/Screenshot_List_of_movies.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/Safa-NAOUI/Movies-MVVM-Coroutine-Koin-Retrofit2-Jetpack_Compose/main/screenshot/Screenshot_List_of_movies.jpg)
