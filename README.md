@@ -24,6 +24,8 @@ Tech Stack
 
 **Jetpack Compose:**  Modern UI toolkit for building native Android UI
 
+**Version Catalogs:** Used to centralize and manage dependencies.
+
 ## Screenshots
 
 
