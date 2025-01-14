@@ -27,6 +27,3 @@ Tech Stack
 **Version Catalogs:** Used to centralize and manage dependencies.
 
 ## Screenshots
-
-
-![App Screenshot](https://raw.githubusercontent.com/Safa-NAOUI/Movies-MVVM-Coroutine-Koin-Retrofit2-Jetpack_Compose/main/screenshot/Screenshot_List_of_movies.jpg)
