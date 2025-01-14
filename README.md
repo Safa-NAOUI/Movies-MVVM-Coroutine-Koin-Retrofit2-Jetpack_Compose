@@ -26,4 +26,3 @@ Tech Stack
 
 **Version Catalogs:** Used to centralize and manage dependencies.
 
-## Screenshots
